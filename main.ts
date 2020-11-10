@@ -19,7 +19,7 @@ function Plast2 () {
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.vy = -50
-    pause(1000)
+    pause(900)
 })
 function Vindmøller () {
     Vindmølle = sprites.create(img`
