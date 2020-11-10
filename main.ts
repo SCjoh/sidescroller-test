@@ -169,8 +169,6 @@ tiles.setTilemap(tiles.createTilemap(hex`a00008000000000000000000000000000000000
     `, [myTiles.transparency16,myTiles.tile1,myTiles.tile2], TileScale.Sixteen))
 scene.setBackgroundColor(9)
 Spiller()
-Plast()
-Vindmøller()
 forever(function () {
     Vindmølle.setImage(img`
         ........................................
